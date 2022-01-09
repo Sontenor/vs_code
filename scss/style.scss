@@ -1,0 +1,11 @@
+.header {
+	font-size: 20px;
+	&__items {
+		background-color: 000;
+	}
+
+	&__item {
+		background-color: black;
+		color: red;
+	}
+}
