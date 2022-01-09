@@ -1,12 +1,16 @@
-.header {
-  font-size: 20px;
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+  margin: auto;
 }
 
-.header__items {
-  background-color: 000;
-}
-
-.header__item {
-  background-color: black;
-  color: red;
+.wrapper__block {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: 20px;
 }

@@ -1,11 +1,15 @@
-.header {
-	font-size: 20px;
-	&__items {
-		background-color: 000;
-	}
+.wrapper {
+	display: flex;
+	width: 1000px;
+	height: 1000px;
+	background-color: red;
+	margin: auto;
 
-	&__item {
-		background-color: black;
-		color: red;
+	&__block {
+		width: 200px;
+		height: 200px;
+		background-color: #fff;
+		margin-top: 20px;
 	}
 }
+
